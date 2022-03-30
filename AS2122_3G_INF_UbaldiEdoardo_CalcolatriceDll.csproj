@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AS2122_3G_INF_UbaldiEdoardo_CalcolatriceDllLibrary\AS2122_3G_INF_UbaldiEdoardo_CalcolatriceDllLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

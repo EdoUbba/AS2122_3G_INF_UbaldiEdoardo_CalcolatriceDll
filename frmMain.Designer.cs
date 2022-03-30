@@ -1,6 +1,6 @@
 ﻿namespace AS2122_3G_INF_UbaldiEdoardo_CalcolatriceDll
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -45,7 +45,6 @@
             this.label1.Size = new System.Drawing.Size(112, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Operando 1:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -100,8 +99,9 @@
             this.btnCalcola.TabIndex = 6;
             this.btnCalcola.Text = "Calcola";
             this.btnCalcola.UseVisualStyleBackColor = true;
+            this.btnCalcola.Click += new System.EventHandler(this.btnCalcola_Click);
             // 
-            // Form1
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -113,7 +113,7 @@
             this.Controls.Add(this.txtOp1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmMain";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
